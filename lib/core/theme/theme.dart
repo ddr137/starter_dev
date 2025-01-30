@@ -7,7 +7,7 @@ class AppTheme {
       useMaterial3: true,
       // scaffoldBackgroundColor: AppThemeColors.scaffoldBgColor,
       colorScheme: AppThemeColors.lightColorScheme,
-      colorSchemeSeed: AppThemeColors.primary,
+      // colorSchemeSeed: AppThemeColors.primary,
       fontFamily: AppThemeFonts.getInter,
       fontFamilyFallback: AppThemeFonts.fonts,
       appBarTheme: AppBarThemeWidget.light,

@@ -7,9 +7,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Starter Dev'),
+      ),
       body: Center(
-        child: TextButton(
-          onPressed: () => context.go('detail'),
+        child: ElevatedButton(
+          onPressed: () => context.go('/detail'),
           child: Text('Detail Page'),
         ),
       ),

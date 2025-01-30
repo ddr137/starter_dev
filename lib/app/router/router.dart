@@ -13,7 +13,7 @@ final GoRouter _goRouter = GoRouter(
       builder: (context, state) => HomePage(),
       routes: <RouteBase>[
         GoRoute(
-          path: 'detail',
+          path: '/detail',
           builder: (context, state) => DetailPage(),
         ),
       ],

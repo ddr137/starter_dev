@@ -13,6 +13,7 @@ export 'extensions/open_browser_ext.dart';
 export 'extensions/custom_snack_bar_ext.dart';
 export 'extensions/combine_provider_ext.dart';
 export 'utils/async_value_widget.dart'; 
+export 'utils/custom_riverpod_observer.dart'; 
 export 'constants/constants.dart';
 export 'theme/app_theme_colors.dart';
 export 'theme/app_theme_text.dart';

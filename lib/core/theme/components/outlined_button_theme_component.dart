@@ -7,23 +7,31 @@ class OutlineThemeWidget {
   static final List<OutlinedButtonThemeData> _outlineBtns = [
     OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
-        foregroundColor: AppThemeColors.primary,
+        iconColor: AppThemeColors.lightColorScheme.primary,
         backgroundColor: Colors.transparent,
+        foregroundColor: AppThemeColors.lightColorScheme.primary,
         padding: const EdgeInsets.all(16),
         side: BorderSide(
           color: AppThemeColors.primary,
           width: 1.0,
         ),
+        textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
+        ),
       ),
     ),
     OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
-        foregroundColor: AppThemeColors.primary[50],
+        iconColor: AppThemeColors.darkColorScheme.primary,
         backgroundColor: Colors.transparent,
+        foregroundColor: AppThemeColors.darkColorScheme.primary,
         padding: const EdgeInsets.all(16),
         side: BorderSide(
           color: AppThemeColors.primary[50]!,
           width: 1.0,
+        ),
+        textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
         ),
       ),
     ),

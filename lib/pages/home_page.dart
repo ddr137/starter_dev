@@ -25,19 +25,19 @@ class HomePage extends StatelessWidget {
           spacing: 16,
           children: [
             ElevatedButton(
-              onPressed: () => context.go('/text-styles'),
+              onPressed: () => context.go('/text-page'),
               child: Text('Text Style Page'),
             ),
             ElevatedButton(
-              onPressed: () => context.go('/button-styles'),
+              onPressed: () => context.go('/button-page'),
               child: Text('Button Style Page'),
             ),
             ElevatedButton(
-              onPressed: () => context.go('/form-styles'),
+              onPressed: () => context.go('/form-page'),
               child: Text('Form Style Page'),
             ),
             ElevatedButton(
-              onPressed: () => context.go('/misc-styles'),
+              onPressed: () => context.go('/misc-page'),
               child: Text('Misc Style Page'),
             ),
           ],

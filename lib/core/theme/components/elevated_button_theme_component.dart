@@ -7,8 +7,9 @@ class ElevatedThemeWidget {
   static final List<ElevatedButtonThemeData> _elevatedBtns = [
     ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        foregroundColor: Colors.white,
-        backgroundColor: AppThemeColors.primary,
+        iconColor: AppThemeColors.lightColorScheme.onPrimary,
+        backgroundColor: AppThemeColors.lightColorScheme.primary,
+        foregroundColor: AppThemeColors.lightColorScheme.onPrimary,
         padding: const EdgeInsets.all(14),
         shadowColor: Colors.black,
         textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
@@ -18,8 +19,9 @@ class ElevatedThemeWidget {
     ),
     ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        foregroundColor: Colors.white,
-        backgroundColor: AppThemeColors.primary[800],
+        iconColor: AppThemeColors.darkColorScheme.onPrimary,
+        backgroundColor: AppThemeColors.darkColorScheme.primary,
+        foregroundColor: AppThemeColors.darkColorScheme.onPrimary,
         padding: const EdgeInsets.all(14),
         shadowColor: Colors.black,
         textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(

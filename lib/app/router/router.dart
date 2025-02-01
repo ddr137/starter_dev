@@ -16,6 +16,10 @@ final GoRouter _goRouter = GoRouter(
           path: '/detail',
           builder: (context, state) => DetailPage(),
         ),
+        GoRoute(
+          path: '/text-styles',
+          builder: (context, state) => TextStylePage(),
+        ),
       ],
     ),
   ],

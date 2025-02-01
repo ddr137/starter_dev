@@ -9,18 +9,22 @@ class ElevatedThemeWidget {
       style: ElevatedButton.styleFrom(
         foregroundColor: Colors.white,
         backgroundColor: AppThemeColors.primary,
-        padding: const EdgeInsets.all(
-          16,
-        ),
+        padding: const EdgeInsets.all(14),
         shadowColor: Colors.black,
+        textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
+        ),
       ),
     ),
     ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         foregroundColor: Colors.white,
-        backgroundColor: AppThemeColors.primary[50],
-        padding: const EdgeInsets.all(16),
+        backgroundColor: AppThemeColors.primary[800],
+        padding: const EdgeInsets.all(14),
         shadowColor: Colors.black,
+        textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
+        ),
       ),
     ),
   ];

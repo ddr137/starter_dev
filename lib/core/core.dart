@@ -12,6 +12,9 @@ export 'extensions/copy_to_clipboard_ext.dart';
 export 'extensions/open_browser_ext.dart';
 export 'extensions/custom_snack_bar_ext.dart';
 export 'extensions/combine_provider_ext.dart';
+export 'extensions/int_color_ext.dart';
+export 'extensions/color_schema_ext.dart';
+export 'extensions/text_style_ext.dart';
 export 'utils/async_value_widget.dart'; 
 export 'utils/custom_riverpod_observer.dart'; 
 export 'constants/constants.dart';
@@ -24,3 +27,5 @@ export 'theme/components/bottom_nav_bar_theme_component.dart';
 export 'theme/components/elevated_button_theme_component.dart';
 export 'theme/components/filled_button_theme_component.dart';
 export 'theme/components/outlined_button_theme_component.dart';
+
+export 'package:go_router/go_router.dart';

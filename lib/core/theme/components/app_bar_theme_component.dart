@@ -4,24 +4,24 @@ import '../../core.dart';
 
 class AppBarThemeWidget {
   AppBarThemeWidget._();
-  static final TextTheme textTheme = AppThemeTexts.getTextTheme('Inter');
 
   static final List<AppBarTheme> _appBars = [
     AppBarTheme(
       centerTitle: false,
-      iconTheme: IconThemeData(color: Colors.black),
-      actionsIconTheme: IconThemeData(color: Colors.black54),
-      titleTextStyle: textTheme.titleLarge?.copyWith(
-        fontWeight: FontWeight.w600,
+      backgroundColor: AppThemeColors.lightColorScheme.surface,
+      foregroundColor: AppThemeColors.lightColorScheme.onSurface,
+      titleTextStyle: AppThemeTexts.textTheme.titleLarge?.copyWith(
+        fontWeight: FontWeight.w500,
+        color: AppThemeColors.lightColorScheme.onSurface,
       ),
     ),
     AppBarTheme(
       centerTitle: false,
-      backgroundColor: AppThemeColors.primary[50],
-      iconTheme: const IconThemeData(color: Colors.white),
-      actionsIconTheme: const IconThemeData(color: Colors.white),
-      titleTextStyle: textTheme.titleLarge?.copyWith(
-        fontWeight: FontWeight.w600,
+      backgroundColor: AppThemeColors.darkColorScheme.surface,
+      foregroundColor: AppThemeColors.darkColorScheme.onSurface,
+      titleTextStyle: AppThemeTexts.textTheme.titleLarge?.copyWith(
+        fontWeight: FontWeight.w500,
+        color: AppThemeColors.darkColorScheme.onSurface,
       ),
     )
   ];

@@ -15,7 +15,6 @@ class ElevatedThemeWidget {
         textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
           fontWeight: FontWeight.w600,
           fontFamily: AppThemeFonts.getRoboto,
-          fontSize: 16,
         ),
       ),
     ),
@@ -29,7 +28,6 @@ class ElevatedThemeWidget {
         textStyle: AppThemeTexts.textTheme.labelLarge?.copyWith(
           fontWeight: FontWeight.w600,
           fontFamily: AppThemeFonts.getRoboto,
-          fontSize: 16,
         ),
       ),
     ),

@@ -1,0 +1,1 @@
+/Users/ddr/project-flutter/research/starter_dev/build/app/intermediates/cxx/Debug/573n6n20/obj/armeabi-v7a

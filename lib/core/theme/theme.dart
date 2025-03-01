@@ -9,7 +9,7 @@ class AppTheme {
     // colorScheme: AppThemeColors.lightColorScheme,
     colorSchemeSeed: AppThemeColors.primary,
     textTheme: AppThemeTexts.textTheme,
-    fontFamily: AppThemeFonts.getPoppins,
+    fontFamily: AppThemeFonts.getInter,
     fontFamilyFallback: AppThemeFonts.fonts,
     // typography: Typography.material2021(),
     appBarTheme: AppBarThemeWidget.light,

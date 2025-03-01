@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:starter_dev/core/core.dart';
+
+import '../core.dart';
 
 extension ShowSnackBar on BuildContext {
   void showSnackBar(String message,
